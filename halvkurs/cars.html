@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>halv kurs projekt</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header>
+            <button class="menybutton" onclick="toggleMenu()">&equiv;</button>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="#contact">CONTACT</a>
+            <a href="faq.html">FAQ</a>
+            <a href="cars.html">CARS</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+        <div class="imgBox">
+            <img src="corvet.jpg" alt="">
+        </div>
+        <h3></h3>
+         <button class="länkar" onclick="">CLICK HERE!</button>
+        </div>
+
+        <div class="card">
+        <div class="imgBox">
+            <img src="bmw.jpg" alt="">
+        </div>
+        <h3></h3>
+        </div>
+
+        <div class="card">
+        <div class="imgBox">
+            <img src="mercedes.jpg" alt="">
+        </div>
+        <h3></h3>
+        </div>
+
+        <div class="card">
+        <div class="imgBox">
+            <img src="mustang.jpg" alt="">
+        </div>
+        <h3></h3>
+        </div>
+
+        <div class="card">
+        <div class="imgBox">
+            <img src="audi.jpg" alt="">
+        </div>
+        <h3></h3>
+        </div>
+
+        <div class="card">
+        <div class="imgBox">
+            <img src="GTR.jpg" alt="">
+        </div>
+        <h3></h3>
+        </div>
+    </main>
+
+    <footer>
+        <div id="contact">
+            <h3>Contact Info...</h3>
+        </div>
+        <a href="#top">TOP</a>
+    </footer>
+
+    <script>
+        function toggleMenu(){
+            document.querySelector("nav").classList.toggle("hidden")
+        }
+    </script>
+
+</body>
+</html>
