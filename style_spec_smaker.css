@@ -1,0 +1,54 @@
+main.spec_smaker {
+    display: grid;
+    gap: 10px;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+.card_smaker{
+        animation: move 2s;
+    }
+
+    @keyframes move {
+        0% {
+            transform: translateY(100%);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+/* <!-- --------------------------------------------------------------------------- --> */
+@media (min-width: 600px) {
+    main.spec_smaker {
+        grid-template-columns: repeat( 2, 1fr );
+    }
+
+    .card_smaker{
+        animation: move 2.25s;
+    }
+
+    @keyframes move {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+.imgBox_smaker {
+    aspect-ratio: 1/1;
+    padding: 1%;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+.imgBox_smaker img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+.info{
+
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}

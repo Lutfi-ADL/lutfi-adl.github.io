@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red bull store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_index.css">
+</head>
+<body>
+
+    <header>
+
+       <button class="menubutton" onclick="togglemenu()">&equiv;</button>
+<!-- --------------------------------------------------------------------------- -->
+        <nav id="nav">
+            <a href="smaker.html">Smaker</a>
+            <a href="about.html">about</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+    </header>
+    <main class="index">
+        
+        <div class="card">
+                <div class="imgbox">
+                    <img src="red-bull.png" alt="">
+                </div>
+        
+            <div class="imgBox_smaker">
+                <div class="köp_nu">
+                    <a href="smaker.html" class="kiki"><img src="köp.png"></a>
+                </div>
+                <h1>välkommen till red bull store</h1>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+        <a href="#top">top</a>
+        <div id="contact" class="contact">
+            <h3>here is contact:</h3>
+        </div>
+<!-- --------------------------------------------------------------------------- -->
+        <h3> email: </h3>
+        <p><button><a href="mailto:lutald0708@edu.halmstad.se">SEND A EMAIL</a></button></p>
+
+    </footer>
+
+    <script>
+        function togglemenu(){
+            document.querySelector("nav").classList.toggle("hidden")
+        }
+    </script>
+
+</body>
+</html>

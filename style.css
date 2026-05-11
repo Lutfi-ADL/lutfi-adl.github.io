@@ -1,0 +1,116 @@
+@import url("style_smaker.css");
+@import url("style_index.css");
+/* <!-- --------------------------------------------------------------------------- --> */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+a{
+  cursor: pointer;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+h1, h2, h3, p{
+  cursor: default;
+  text-align: center;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+header, main, footer, nav{   
+  border: 1px solid black;
+  min-height: 10vh;
+  padding: 3%;
+  border-radius: 25px;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+header nav{
+  display: grid;
+  transition: all 1.5s;
+  width: 100%;
+  min-height: 15vh;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+nav a{
+  text-decoration: none;
+  color: black;
+  display: grid;
+
+  display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+a:hover {
+  transform: scale(1.1);
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+nav{
+  border: 1px solid black;
+  display: grid;
+  gap: 0.5rem;
+  text-align: center;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+main{
+  display: grid;
+  gap:20px;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+footer a{
+  text-decoration: none;
+  color: black;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+footer{
+  text-align: center;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+.imgBox img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+html{
+  scroll-behavior: smooth;
+  background: linear-gradient(
+  135deg,
+  #E6F7EC,  /* vert léger */
+  #EAF4FF,  /* bleu clair */
+  #FFF4E6,  /* orange doux */
+  #FFFBE6   /* jaune pâle */);
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+.hidden{
+  height: 0;
+  margin-left: -200%;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+.menybutton{
+  background-color: linear-gradient(
+  135deg,
+  #E6F7EC,  /* vert léger */
+  #EAF4FF,  /* bleu clair */
+  #FFF4E6,  /* orange doux */
+  #FFFBE6   /* jaune pâle */);
+  border: none;
+  font-size: 3rem;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+main {
+  display: grid;
+  gap: 10px;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+.menybutton {
+  display: none;  
+}  
+/* <!-- --------------------------------------------------------------------------- --> */
+.indexNav{
+  display:block;
+}
+/* <!-- --------------------------------------------------------------------------- --> */
+button{
+  background-color: white;
+  border-radius: 5px;
+}
